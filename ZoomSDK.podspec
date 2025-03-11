@@ -33,17 +33,17 @@ Pod::Spec.new do |spec|
   end
 
   # Uncomment when this library will be support Swift 5 or higher
-  # spec.subspec 'ShareScreen' do |subspec|
-  #   subspec.ios.dependency 'Core'
+   spec.subspec 'ShareScreen' do |subspec|
+     subspec.ios.dependency 'Core'
 
-  #   subspec.ios.source_files            = "MobileRTCScreenShare.framework/Headers/**/*.{h,m}"
-  #   subspec.ios.public_header_files     = "MobileRTCScreenShare.framework/Headers/**/*.{h,m}"
-  #   subspec.ios.vendored_frameworks     = "MobileRTCScreenShare.framework"
-  # end
+     subspec.ios.source_files            = "MobileRTCScreenShare.framework/Headers/**/*.{h,m}"
+     subspec.ios.public_header_files     = "MobileRTCScreenShare.framework/Headers/**/*.{h,m}"
+     subspec.ios.vendored_frameworks     = "MobileRTCScreenShare.framework"
+   end
 
-  # spec.requires_arc = true
+   spec.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+   spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+   spec.dependency "JSONKit", "~> 1.4"
 
 end
