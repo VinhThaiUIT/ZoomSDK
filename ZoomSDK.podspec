@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "mobilertc"
+  spec.name         = "MobileRTC"
   spec.version      = "4.6.21666.0428"
   spec.summary      = "Original framework for Zoom.us service"
   spec.homepage     = "https://github.com/zoom/zoom-sdk-ios"
